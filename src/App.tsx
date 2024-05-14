@@ -1,19 +1,18 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Homepage from './pages/Homepage';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects';
-import Aboutme from './pages/Aboutme';
+import Homepage from './components/Homepage';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
+import Aboutme from './components/Aboutme';
+import Header from './components/Header';
 
 function App() {
    return (
-      <Router>
-         <Routes>
-            <Route path="/" element={<Homepage />}></Route>
-            <Route path="/aboutme" element={<Aboutme />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-         </Routes>
-      </Router>
+      <div className="bg-gradient-to-t from-slate-500 to-slate-800 m-0 p-0">
+         <Header></Header>
+         <Homepage></Homepage>
+         <Contact></Contact>
+         <Projects></Projects>
+         <Aboutme></Aboutme>
+      </div>
    );
 }
 
