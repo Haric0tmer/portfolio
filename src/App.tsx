@@ -1,17 +1,17 @@
-import Homepage from './components/Homepage';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Aboutme from './components/Aboutme';
 import Header from './components/Header';
+import { useState } from 'react';
 
 function App() {
+   const [locale, setLocale] = useState('fr');
    return (
-      <div className="bg-gradient-to-t from-slate-500 to-slate-800 m-0 p-0">
-         <Header></Header>
-         <Homepage></Homepage>
-         <Contact></Contact>
-         <Projects></Projects>
-         <Aboutme></Aboutme>
+      <div className="bg-slate-800">
+         <Header locale={locale} setLocale={setLocale}></Header>
+         <Aboutme locale={locale}></Aboutme>
+         <Projects locale={locale}></Projects>
+         <Contact locale={locale}></Contact>
       </div>
    );
 }
