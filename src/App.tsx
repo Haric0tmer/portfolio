@@ -7,7 +7,7 @@ import { useState } from 'react';
 function App() {
    const [locale, setLocale] = useState('fr');
    return (
-      <div className="bg-slate-800">
+      <div className="bg__svg">
          <Header locale={locale} setLocale={setLocale}></Header>
          <Aboutme locale={locale}></Aboutme>
          <Projects locale={locale}></Projects>
