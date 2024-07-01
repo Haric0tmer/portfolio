@@ -9,19 +9,23 @@ interface AboutmeProps {
 function Aboutme({ locale }: AboutmeProps) {
    const [showModal, setShowModal] = useState(false);
    return locale === 'fr' ? (
-      <div id="aboutme" className="flex flex-col laptop:flex-row justify-center items-center laptop:mx-auto mt-12 w-full laptop:w-fit text-center">
+      <div
+         id="aboutme"
+         className="flex flex-col laptop:flex-row justify-center items-center laptop:mx-auto mt-12 w-full laptop:w-fit text-center">
          <div className="laptop:w-2/5">
             <h1 className="text-white text-4xl laptop:text-7xl font-semibold">
                Bonjour, je suis Laurent Boualavong
             </h1>
             <p className="mt-4 text-white text-lg">
-               Développeur - Alternant en 3ème année au département informatique de
-               l'IUT2 de Grenoble.
+               Développeur - Alternant en 3ème année au département informatique
+               de l'IUT2 de Grenoble.
             </p>
          </div>
          <div className="hidden laptop:block h-[300px] min-h-[1em] w-[10px] self-stretch bg-gradient-to-t from-transparent via-slate-100 to-transparent opacity-25 "></div>
          <div className="laptop:w-2/5 m-3">
-            <h3 className="laptop:text-4xl text-2xl text-white">À propos de moi</h3>
+            <h3 className="laptop:text-4xl text-2xl text-white">
+               À propos de moi
+            </h3>
             <p className="md:text-lg text-md text-white font-extralight mt-5">
                Bonjour, je suis Laurent Boualavong, actuellement en 3ème année
                de BUT informatique à l'IUT2 de Grenoble en alternance.
@@ -45,19 +49,21 @@ function Aboutme({ locale }: AboutmeProps) {
          </div>
       </div>
    ) : (
-      <div id="aboutme" className="flex justify-center mx-auto mt-12 w-fit">
-         <div className="w-2/5">
-            <h1 className="text-white text-7xl font-semibold">
+      <div
+         id="aboutme"
+         className="flex flex-col laptop:flex-row justify-center items-center laptop:mx-auto mt-12 w-full laptop:w-fit text-center">
+         <div className="laptop:w-2/5">
+            <h1 className="text-white text-4xl laptop:text-7xl font-semibold">
                Hello, I am Laurent Boualavong
             </h1>
-            <p className="mt-4 text-white text-md laptop:text-lg">
+            <p className="mt-4 text-white text-lg">
                Developer - Work-study student in 3rd year of a bachelor's degree
                in computer science at the IUT2 of Grenoble.
             </p>
          </div>
-         <div className="h-[300px] min-h-[1em] w-[10px] self-stretch bg-gradient-to-t from-transparent via-slate-100 to-transparent opacity-25 dark:via-neutral-400"></div>
-         <div className="w-2/5 m-3">
-            <h3 className="text-4xl text-white">About me</h3>
+         <div className="hidden laptop:block h-[300px] min-h-[1em] w-[10px] self-stretch bg-gradient-to-t from-transparent via-slate-100 to-transparent opacity-25"></div>
+         <div className="laptop:w-2/5 m-3">
+            <h3 className="laptop:text-4xl text-2xl text-white">About me</h3>
             <p className="md:text-lg text-md text-white font-extralight mt-5">
                Hello, I am Laurent Boualavong, currently in 3rd year of a
                bachelor's degree in computer science at the IUT2 of Grenoble as
