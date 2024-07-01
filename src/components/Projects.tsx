@@ -4,6 +4,7 @@ interface ProjectProps {
 
 import Hopefield from './Hopefield';
 import Kyoju from './Kyoju';
+import Pharmadesk from './Pharmadesk';
 function Projects({ locale }: ProjectProps) {
    return locale === 'fr' ? (
       <div id="projects">
@@ -12,6 +13,7 @@ function Projects({ locale }: ProjectProps) {
          <div className="flex flex-col justify-center items-center">
             <Hopefield locale={locale}></Hopefield>
             <Kyoju locale={locale}></Kyoju>
+            <Pharmadesk locale={locale}></Pharmadesk>
          </div>
       </div>
    ) : (
@@ -21,6 +23,7 @@ function Projects({ locale }: ProjectProps) {
          <div className="flex flex-col justify-center items-center">
             <Hopefield locale={locale}></Hopefield>
             <Kyoju locale={locale}></Kyoju>
+            <Pharmadesk locale={locale}></Pharmadesk>
          </div>
       </div>
    );
