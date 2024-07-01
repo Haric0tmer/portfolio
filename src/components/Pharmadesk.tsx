@@ -3,6 +3,7 @@ import cssLogo from '../assets/css.svg';
 import htmlLogo from '../assets/html.svg';
 import phpLogo from '../assets/php.svg';
 import pgLogo from '../assets/pg.svg';
+import pharmadeskImage from '../assets/pharmadesk-home.png';
 
 import { Button } from './ui/button';
 import { useState } from 'react';
@@ -32,11 +33,11 @@ function Pharmadesk({ locale }: HopefieldCardProps) {
                <img src={pgLogo} alt="logoPG" className="w-[48px] h-[48px]" />
             </div>
          </div>
-         {/* <img
-            src={hopefieldImage}
-            alt="Hopefield"
-            className="w-[530px] h-[288px]"
-         /> */}
+         <img
+            src={pharmadeskImage}
+            alt="PharmaDesk"
+            className="w-[350px] h-[188px] sm:w-[520px] sm:h-[288px] mx-4 my-2"
+         />
          <Button
             variant={'secondary'}
             className="rounded-full text-slate-800 hover:bg-slate-600 hover:text-white transition ease-in-out duration-300 w-28 mt-5"

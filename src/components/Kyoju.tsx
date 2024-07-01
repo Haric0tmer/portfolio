@@ -1,6 +1,6 @@
 import pythonLogo from '../assets/python.svg';
-import figmaLogo from '../assets/figma.svg';
-// import kyojuImage from '../assets/kyoju.png';
+import gimpLogo from '../assets/gimp.svg';
+import kyojuImage from '../assets/kyoju-accueil.png';
 
 import { Button } from './ui/button';
 import { useState } from 'react';
@@ -24,23 +24,21 @@ function Kyoju({ locale }: HopefieldCardProps) {
                <img
                   src={pythonLogo}
                   alt="logoHTML"
-                  className="w-[48px] h-[48px]"
+                  className="w-[48px] h-[48px] mx-3"
                />
                <img
-                  src={figmaLogo}
-                  alt="logoFigma"
+                  src={gimpLogo}
+                  alt="logoGIMP"
                   className="w-[48px] h-[48px]"
                />
-               {/* <img src={jsLogo} alt="logoJS" className="w-[48px] h-[48px]" />
-               <img src={phpLogo} alt="logoPHP" className="w-[48px] h-[48px]" />
-               <img src={pgLogo} alt="logoPG" className="w-[48px] h-[48px]" /> */}
+               
             </div>
          </div>
-         {/* <img
+         <img
             src={kyojuImage}
             alt="Kyoju image"
-            className="w-[530px] h-[288px]"
-         /> */}
+            className="w-[350px] h-[188px] sm:w-[520px] sm:h-[288px] mx-4 my-2"
+         />
          <Button
             variant={'secondary'}
             className="rounded-full text-slate-800 hover:bg-slate-600 hover:text-white transition ease-in-out duration-300 w-28 mt-5"

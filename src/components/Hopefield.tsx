@@ -36,7 +36,7 @@ function Hopefield({ locale }: HopefieldCardProps) {
          <img
             src={hopefieldImage}
             alt="Hopefield"
-            className="w-[530px] h-[288px]"
+            className="w-[350px] h-[188px] sm:w-[520px] sm:h-[288px] mx-4 my-2"
          />
          <Button
             variant={'secondary'}
