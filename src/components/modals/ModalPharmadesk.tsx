@@ -20,14 +20,14 @@ export default function ModalHopeField({
         <div className="justify-center items-center flex overflow-y-auto overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none">
           <div className="relative w-auto my-6 mx-auto max-w-3xl">
             {/*content*/}
-            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-800 outline-none focus:outline-none max-h-screen">
+            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-600 outline-none focus:outline-none max-h-screen">
               {/*header*/}
               <h3 className="text-4xl text-white text-center mt-5">
                 Ky0ju's Reminiscence
               </h3>
               {/*body*/}
               <div className="relative p-6 flex-auto overflow-y-auto max-h-[calc(100vh-200px)]">
-                <p className="text-lg text-white font-extralight mt-5">
+                <p className="text-lg text-white font-extralight mt-5 text-justify">
                   PharmaDesk est mon deuxieme projet professionel. Il a été
                   réalisé à la suite de mon stage de deuxième année durant l'été
                   2023. PharmaDesk est une application web faite en PHP, HTML,
@@ -39,7 +39,7 @@ export default function ModalHopeField({
                   d'enrigistrer des contacts afin de se construire un annuaire
                   des contacts utiles.
                 </p>
-                <p className="text-lg text-white font-extralight mt-5">
+                <p className="text-lg text-white font-extralight mt-5 text-justify">
                   Pour faire ce projet j'ai eu un total de 4 semaines pour
                   prendre en compte tous les aspects du développement d'une
                   application de la conception à la mise en production. Au cours

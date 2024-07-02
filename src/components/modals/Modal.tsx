@@ -13,14 +13,14 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
             <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                <div className="relative w-auto my-6 mx-auto max-w-3xl">
                   {/*content*/}
-                  <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-800 outline-none focus:outline-none">
+                  <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-600 outline-none focus:outline-none">
                      {/*header*/}
                      <h3 className="text-4xl text-white text-center mt-5">
                         À propos de moi
                      </h3>
                      {/*body*/}
                      <div className="relative p-6 flex-auto">
-                        <p className="text-lg text-white font-extralight mt-5">
+                        <p className="text-lg text-white font-extralight mt-5 text-justify">
                            Bonjour, je suis Laurent Boualavong, actuellement en
                            3ème année de BUT informatique à l'IUT2 de Grenoble
                            en alternance. Principalement intéressé par le
@@ -29,7 +29,7 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
                            possible dans leur vie. De nature curieux, j'adore
                            apprendre à faire de nouvelles choses.
                         </p>
-                        <p className="text-lg text-white font-extralight mt-3">
+                        <p className="text-lg text-white font-extralight mt-3 text-justify">
                            Lors du premier confinement de la pandémie de
                            COVID-19, j'ai cherché une manière d'occuper mon
                            temps libre. Étant fan de culture japonaise, je me
@@ -40,7 +40,7 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
                            japonais avec des cours à l'université à côté de ma
                            formation pendant trois semestres.
                         </p>
-                        <p className="text-lg text-white font-extralight mt-3">
+                        <p className="text-lg text-white font-extralight mt-3 text-justify">
                            Passionné de sport, je pratique du volleyball en
                            compétition depuis 5 ans et suis capitaine de mon
                            équipe depuis 4 ans. Avant cela, j'ai fait du tennis

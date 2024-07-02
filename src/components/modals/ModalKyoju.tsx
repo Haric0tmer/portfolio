@@ -21,14 +21,14 @@ export default function ModalKyoju({
         <div className="justify-center items-center flex overflow-y-auto overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none">
           <div className="relative w-auto my-6 mx-auto max-w-3xl">
             {/*content*/}
-            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-800 outline-none focus:outline-none max-h-screen">
+            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-600 outline-none focus:outline-none max-h-screen">
               {/*header*/}
               <h3 className="text-4xl text-white text-center mt-5">
                 Ky0ju's Reminiscence
               </h3>
               {/*body*/}
               <div className="relative p-6 flex-auto overflow-y-auto max-h-[calc(100vh-200px)]">
-                <p className="text-lg text-white font-extralight mt-5">
+                <p className="text-lg text-white font-extralight mt-5 text-justify">
                   Ky0ju's Reminiscence est un projet universitaire réalisé à
                   l'occasion d'une GameJam la première semaine du semestre 5.
                   Cette GameJam se déroulait sur 4 jours et avait pour thème
@@ -39,7 +39,7 @@ export default function ModalKyoju({
                   en quête de composants pour réparer Ky0ju, une création de son
                   père qui permet d'altérer la gravité à ses alentours.
                 </p>
-                <p className="text-lg text-white font-extralight mt-5">
+                <p className="text-lg text-white font-extralight mt-5 text-justify">
                   Mon rôle dans le projet a été de coder certaines mécaniques de
                   jeu comme les collisions ou les déplacements du joueur. Au
                   total nous étions 2 programmeurs dédiés à la partie gameplay.
