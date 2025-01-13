@@ -17,8 +17,7 @@ function Aboutme({ locale }: AboutmeProps) {
                Bonjour, je suis Laurent Boualavong
             </h1>
             <p className="mt-4 text-white text-lg">
-               Développeur - Alternant en 3ème année au département informatique
-               de l'IUT2 de Grenoble.
+               Développeur - Alternant en 1ère année à l'IMT Mines d'Alès.
             </p>
          </div>
          <div className="hidden laptop:block h-[300px] min-h-[1em] w-[10px] self-stretch bg-gradient-to-t from-transparent via-slate-100 to-transparent opacity-25 "></div>
@@ -27,12 +26,11 @@ function Aboutme({ locale }: AboutmeProps) {
                À propos de moi
             </h3>
             <p className="md:text-lg text-md text-white font-extralight mt-5 laptop:text-justify">
-               Bonjour, je suis Laurent Boualavong, actuellement en 3ème année
-               de BUT informatique à l'IUT2 de Grenoble en alternance.
+               Bonjour, je suis Laurent Boualavong, actuellement en 1ère année aux Mines d'Alès 
+               dans la filière informatique et réseaux, parcours développement logiciel en alternance.
                Principalement intéressé par le développement web et logiciel,
-               j'aime pouvoir utiliser mes capacités afin d'assiter au mieux
-               possible dans leur vie. De nature curieux, j'adore apprendre à
-               faire de nouvelles choses.
+               j'aime pouvoir utiliser mes capacités afin de trouver des solutions aux problèmes des utilisateurs.
+               De nature curieux, j'adore acquérir de nouvelles connaissances sur divers sujets.
             </p>
             <div className="w-full flex justify-center mt-5">
                <Button
@@ -57,20 +55,18 @@ function Aboutme({ locale }: AboutmeProps) {
                Hello, I am Laurent Boualavong
             </h1>
             <p className="mt-4 text-white text-lg">
-               Developer - Work-study student in 3rd year of a bachelor's degree
-               in computer science at the IUT2 of Grenoble.
+               Developer - Work-study student in 1st year at IMT Mines d'Alès engineering school.
             </p>
          </div>
          <div className="hidden laptop:block h-[300px] min-h-[1em] w-[10px] self-stretch bg-gradient-to-t from-transparent via-slate-100 to-transparent opacity-25"></div>
          <div className="laptop:w-2/5 m-3">
             <h3 className="laptop:text-4xl text-2xl text-white">About me</h3>
             <p className="md:text-lg text-md text-white font-extralight mt-5 laptop:text-justify">
-               Hello, I am Laurent Boualavong, currently in 3rd year of a
-               bachelor's degree in computer science at the IUT2 of Grenoble as
-               a work-study student. Mainly interested in web and software
-               development, I like to use my abilities to assist people as best
-               as possible in their lives. Curious by nature, I love learning
-               new skills.
+               Hello, I am Laurent Boualavong, currently in 1st year as
+               a work-study student at the engineering school IMT Mines d'Alès. Majoring in computer science and networks, 
+               specialized in software development, I am mainly interested in web and software
+               development. I like to use my abilities to create tools or solutions to solve users's problems. 
+               Curious by nature, I love learning new skills.
             </p>
             <div className="w-full flex justify-center mt-5">
                <Button
