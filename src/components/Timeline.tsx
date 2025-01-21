@@ -55,14 +55,43 @@ function Timeline({ locale }: TimelineProps) {
 							desc='After my first year at La prepa des INP, I decided to go towards a bachelor in computer science at the IUT2 of Grenoble. Even though I changed my formation, my final goal was always to join an engineering school. I preferred the BUT because it has  more practical courses focused in computer science compared to the prepa. In my second year, I chose to specialize in application devlopment. During the 3 years of BUT, I discovered and improved my knowledge in different fields of computer science such as development, databases, networks but also notions like project management or economics.'
 						></TimelineElement>
 					)}
-
 					<Line></Line>
-					<TimelineElement
-						title='Alternance - DATE'
-						date='Sept 2023 - Juil 2024'
-						type='work'
-						desc='blablablabal blabejr jlajfb ljkqsbjf sdhfqhfjk hdslqkfhjshqlfkhj'
-					></TimelineElement>
+					<div>
+						<div className='mb-2'>
+							{locale === "fr" ? (
+								<TimelineElement
+									title='Stage - DATE'
+									date='Juil 2023 - Août 2023'
+									desc="Pendant ma deuxième année de BUT, j'ai eu a faire un stage d'une durée de 3 mois ayant pour but de donner un avant-goût du monde du travail. Pour ce stage j'ai travaillé chez DATE, une PME ayant pour coeur de métier la fabrication d'échangeur thermique à forte téchnicité, faits sur mesure pou des clients du domaine du spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prennant en compte les différents postes de dépenses allant de la main d'oeuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet de A à Z."
+									type='work'
+								></TimelineElement>
+							) : (
+								<TimelineElement
+									title='Intern - DATE'
+									date='Jul 2023 - Aug 2023'
+									type='work'
+									desc='During the second year of my bachelor, I had to complete an internship of 3 months to get a taste of the working world. For this internship, I worked at DATE, a SME specialized in the manufacturing of high-end custom-made heat exchangers for clients in the space, defense or industry sectors. My mission at DATE was to create an application to estimate the cost of a project by taking into account the different expenses ranging from labor to raw materials. I was able to discover the world of industry and business, but also learn to work independently and manage a project from start to finish.'
+								></TimelineElement>
+							)}
+						</div>
+						<div>
+							{locale === "fr" ? (
+								<TimelineElement
+									title='Alternance - DATE'
+									date='Sept 2023 - Juil 2024'
+									type='work'
+									desc="J'ai eu l'occasion de faire ma troisième année de BUT en alternance. Après l'expérience du stage qui s'est bien passée, j'ai décidé, d'un accord commun avec DATE, de faie cette année d'alternance chez eux. Ma mission pour cette année a été dans un premier temps de terminer l'application de chiffrage des projets. Mon deuxième projet était une application permettant de "
+								></TimelineElement>
+							) : (
+								<TimelineElement
+									title='Alternance - DATE'
+									date='Sept 2023 - Juil 2024'
+									type='work'
+									desc='blablablabal blabejr jlajfb ljkqsbjf sdhfqhfjk hdslqkfhjshqlfkhj'
+								></TimelineElement>
+							)}
+						</div>
+					</div>
 				</div>
 				<Circle></Circle>
 				{locale === "fr" ? (
@@ -95,21 +124,7 @@ function Timeline({ locale }: TimelineProps) {
 						desc='After high school, I decided to join La prepa des INP in Nancy with the goal of joining an engineering school from the INP group. During this year, I was able to discover several scientific fields in depth despite difficult working conditions due to the COVID-19 lockdown. I was able to discover computer science which pushed me towards my decision to stop my current formation and go towards computer science studies.'
 					></TimelineElement>
 				)}
-				{locale === "fr" ? (
-					<TimelineElement
-						title='Stage - DATE'
-						date='Juil 2023 - Août 2023'
-						desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaine scientifiques en profondeur malgrès des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a poussé vers ma décision d'arrêter la prépa pour m'orienter vers des études d'informatique."
-						type='work'
-					></TimelineElement>
-				) : (
-					<TimelineElement
-						title='Intern - DATE'
-						date='Jul 2023 - Aug 2023'
-						type='work'
-						desc='After high school, I decided to join La prepa des INP in Nancy with the goal of joining an engineering school from the INP group. During this year, I was able to discover several scientific fields in depth despite difficult working conditions due to the COVID-19 lockdown. I was able to discover computer science which pushed me towards my decision to stop my current formation and go towards computer science studies.'
-					></TimelineElement>
-				)}
+
 				{locale === "fr" ? (
 					<TimelineElement
 						title='Alternance - Un Toit Pour Tous'
