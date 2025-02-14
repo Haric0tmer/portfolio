@@ -17,7 +17,30 @@ function Timeline({ locale }: TimelineProps) {
 					? "Après le lycée, j'ai étudié et travaillé dans plusieurs milieux, ce qui m'a aidé à choisir l'informatique comme domaine d'étude. Voici mon parcours. "
 					: "Once I finished high school, I studied and worked in different environments. These exeperiencies helped me choose computer science for my studies. Here is my journey."}
 			</p>
-			<div className='flex flex-col gap-y-3 w-[90%] my-4 mx-auto'>
+			<div className='flex flex-col gap-y-3 w-[90%] my-4 mx-auto lg:hidden'>
+				<Circle></Circle>
+				<div className='grid grid-cols-[auto_1fr] gap-x-2 items-center mx-auto'>
+					<Line></Line>
+					{locale === "fr" ? (
+						<TimelineElement
+							title='La prepa des INP'
+							date='Sept 2020 - Juil 2021'
+							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaine scientifiques en profondeur malgrès des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a poussé vers ma décision d'arrêter la prépa pour m'orienter vers des études d'informatique."
+							type='school'
+						></TimelineElement>
+					) : (
+						<TimelineElement
+							title='La prepa des INP'
+							date='Sept 2020 - Jul 2021'
+							type='school'
+							desc='After high school, I decided to join La prepa des INP in Nancy with the goal of joining an engineering school from the INP group. During this year, I was able to discover several scientific fields in depth despite difficult working conditions due to the COVID-19 lockdown. I was able to discover computer science which pushed me towards my decision to stop my current formation and go towards computer science studies.'
+						></TimelineElement>
+					)}
+				</div>
+				<Circle></Circle>
+				<Circle></Circle>
+			</div>
+			<div className='lg:flex flex-col gap-y-3 w-[90%] my-4 mx-auto hidden'>
 				<Circle></Circle>
 				<div className='grid grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto'>
 					{locale === "fr" ? (
@@ -39,6 +62,7 @@ function Timeline({ locale }: TimelineProps) {
 					<div></div>
 				</div>
 				<Circle></Circle>
+				<Circle></Circle>
 				<div className='grid grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto'>
 					{locale === "fr" ? (
 						<TimelineElement
@@ -57,7 +81,7 @@ function Timeline({ locale }: TimelineProps) {
 					)}
 					<Line></Line>
 					<div>
-						<div className='mb-2'>
+						<div className='mb-8'>
 							{locale === "fr" ? (
 								<TimelineElement
 									title='Stage - DATE'
@@ -76,7 +100,7 @@ function Timeline({ locale }: TimelineProps) {
 								></TimelineElement>
 							)}
 						</div>
-						<div className='mb-2'>
+						<div className='mb-8'>
 							{locale === "fr" ? (
 								<TimelineElement
 									title='Pharmacie de la Commanderie'
@@ -116,6 +140,7 @@ function Timeline({ locale }: TimelineProps) {
 						</div>
 					</div>
 				</div>
+				<Circle></Circle>
 				<Circle></Circle>
 				<div className='grid grid-cols-[auto_1fr] md:grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto'>
 					{locale === "fr" ? (
