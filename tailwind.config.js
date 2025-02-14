@@ -10,12 +10,13 @@ module.exports = {
 	prefix: "",
 	theme: {
 		screens: {
+			xsm: "480px",
 			sm: "640px",
 			tablet: "800px",
 			md: "900px",
 			laptop: "1024px",
 			desktop: "1640px",
-			lg: "1320px",
+			lg: "1360px",
 		},
 		container: {
 			center: true,

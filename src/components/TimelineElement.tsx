@@ -1,9 +1,12 @@
+// TODO Interpolation de la couleur dans les classes CSS pour la border
+
 interface TimelineElementProps {
 	desc: string;
 	date: string;
 	title: string;
 	type: string;
 	tech?: string[];
+	color?: string;
 }
 import jsLogo from "../assets/js.svg";
 import cssLogo from "../assets/css.svg";
@@ -22,14 +25,15 @@ function TimelineElement({
 	title,
 	type,
 	tech,
+	color,
 }: TimelineElementProps) {
 	return (
-		<div className='container flex flex-col border gap-y-2 shadow-md rounded-xl p-4'>
-			<div className='flex justify-between items-center'>
-				<h2 className='text-white italic font-bold text-2xl border-b w-fit'>
+		<div className='container flex flex-col border border-red-400 gap-y-2 shadow-md rounded-xl p-4'>
+			<div className='flex flex-col justify-between md:flex-row md:items-center'>
+				<h2 className='text-white italic font-bold text-l laptop:text-2xl border-b w-fit'>
 					{title}
 				</h2>
-				<div className='flex justify-evenly items-center'>
+				<div className='flex mt-2 md:mt-0 md:justify-evenly md:items-center'>
 					{tech &&
 						tech.map((t) => {
 							let logo = undefined;
@@ -68,7 +72,7 @@ function TimelineElement({
 								<img
 									src={logo}
 									alt={`logo${t}`}
-									className='w-[32px] h-[32px]'
+									className='w-[32px] h-[32px] mx-1'
 								/>
 							);
 						})}
@@ -85,8 +89,10 @@ function TimelineElement({
 					)}
 				</div>
 			</div>
-			<small className='text-lg text-slate-300 font-extralight'>{date}</small>
-			<p className='text-xl text-white font-light'>{desc}</p>
+			<small className='text-sm laptop:text-lg text-slate-300 font-extralight'>
+				{date}
+			</small>
+			<p className='text-md laptop:text-xl text-white font-light'>{desc}</p>
 		</div>
 	);
 }
