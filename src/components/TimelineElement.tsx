@@ -6,7 +6,7 @@ interface TimelineElementProps {
 	title: string;
 	type: string;
 	tech?: string[];
-	color?: string;
+	color: string;
 }
 import jsLogo from "../assets/js.svg";
 import cssLogo from "../assets/css.svg";
@@ -18,6 +18,7 @@ import reactLogo from "../assets/react.svg";
 import pcsoftLogo from "../assets/pcsoft.svg";
 import sqlLogo from "../assets/sql.svg";
 import { Briefcase, GraduationCapIcon } from "lucide-react";
+import clsx from "clsx";
 
 function TimelineElement({
 	desc,
@@ -28,9 +29,19 @@ function TimelineElement({
 	color,
 }: TimelineElementProps) {
 	return (
-		<div className='container flex flex-col border border-red-400 gap-y-2 shadow-md rounded-xl p-4'>
+		<div
+			className={clsx(
+				"container flex flex-col gap-y-2 shadow-md rounded-xl p-4 border",
+				{
+					"border-red-400": color === "red",
+					"border-yellow-200": color === "yellow",
+					"border-cyan-300": color === "cyan",
+					"border-gray-400": !["red", "blue", "green"].includes(color), // Couleur par défaut
+				}
+			)}
+		>
 			<div className='flex flex-col justify-between md:flex-row md:items-center'>
-				<h2 className='text-white italic font-bold text-l laptop:text-2xl border-b w-fit'>
+				<h2 className='text-white italic font-bold text-lg laptop:text-2xl sm:text-xl border-b w-fit'>
 					{title}
 				</h2>
 				<div className='flex mt-2 md:mt-0 md:justify-evenly md:items-center'>
@@ -72,7 +83,7 @@ function TimelineElement({
 								<img
 									src={logo}
 									alt={`logo${t}`}
-									className='w-[32px] h-[32px] mx-1'
+									className='md:w-[32px] md:h-[32px] w-[28px] h-[28px] mx-1'
 								/>
 							);
 						})}
@@ -89,10 +100,12 @@ function TimelineElement({
 					)}
 				</div>
 			</div>
-			<small className='text-sm laptop:text-lg text-slate-300 font-extralight'>
+			<small className='text-sm sm:text-md laptop:text-lg text-slate-300 font-extralight'>
 				{date}
 			</small>
-			<p className='text-md laptop:text-xl text-white font-light'>{desc}</p>
+			<p className='text-md sm:text-lg laptop:text-xl text-white font-light'>
+				{desc}
+			</p>
 		</div>
 	);
 }

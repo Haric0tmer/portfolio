@@ -27,7 +27,7 @@ function Aboutme({ locale }: AboutmeProps) {
 			</div>
 			<div className='hidden laptop:block h-[300px] min-h-[1em] w-[10px] self-stretch bg-gradient-to-t from-transparent via-slate-100 to-transparent opacity-25 '></div>
 			<div className='laptop:w-2/5'>
-				<h3 className='laptop:text-4xl mt-4 laptop:mt-0 text-2xl text-white'>
+				<h3 className='laptop:text-4xl mt-4 laptop:mt-0 text-3xl text-white'>
 					{locale === "fr" ? "À propos de moi" : "About me"}
 				</h3>
 				<p className='md:text-xl text-lg text-white font-light mt-5 laptop:text-justify'>

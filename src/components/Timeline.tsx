@@ -12,7 +12,7 @@ function Timeline({ locale }: TimelineProps) {
 			<h2 className='text-3xl mb-6 text-white text-center mt-12 laptop:text-6xl laptop:mt-18 '>
 				{locale === "fr" ? "Mon parcours" : "My journey"}
 			</h2>
-			<p className='text-lg laptop:text-2xl font-light text-center text-white mb-3'>
+			<p className='text-xl laptop:text-2xl font-light text-center text-white mb-3'>
 				{locale === "fr"
 					? "Après le lycée, j'ai étudié et travaillé dans plusieurs milieux, ce qui m'a aidé à choisir l'informatique comme domaine d'étude. Voici mon parcours. "
 					: "Once I finished high school, I studied and worked in different environments. These exeperiencies helped me choose computer science for my studies. Here is my journey."}
@@ -24,6 +24,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Juil 2021'
 							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaine scientifiques en profondeur malgrès des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a poussé vers ma décision d'arrêter la prépa pour m'orienter vers des études d'informatique."
@@ -31,6 +32,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Jul 2021'
 							type='school'
@@ -44,6 +46,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='red'
 							title='BUT Informatique'
 							date='Sept 2021 - Juil 2024'
 							type='school'
@@ -51,6 +54,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='red'
 							title='BUT Informatique'
 							date='Sept 2021 - Jul 2024'
 							type='school'
@@ -59,11 +63,11 @@ function Timeline({ locale }: TimelineProps) {
 					)}
 				</div>
 				<Circle></Circle>
-				<Circle></Circle>
 				<div className='grid grid-cols-[auto_1fr] gap-x-2 items-center mx-auto'>
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='red'
 							title='Stage - DATE'
 							date='Avr 2023 - Juil 2023'
 							desc="Pendant ma deuxième année de BUT, j'ai eu a faire un stage d'une durée de 3 mois ayant pour but de donner un avant-goût du monde du travail. Pour ce stage j'ai travaillé chez DATE, une PME ayant pour coeur de métier la fabrication d'échangeur thermique à forte téchnicité, faits sur mesure pou des clients du domaine du spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prennant en compte les différents postes de dépenses allant de la main d'oeuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet de A à Z."
@@ -72,6 +76,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='red'
 							title='Intern - DATE'
 							date='Jul 2023 - Aug 2023'
 							type='work'
@@ -81,11 +86,11 @@ function Timeline({ locale }: TimelineProps) {
 					)}
 				</div>
 				<Circle></Circle>
-				<Circle></Circle>
 				<div className='grid grid-cols-[auto_1fr] gap-x-2 items-center mx-auto'>
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='red'
 							title='Pharmacie de la Commanderie'
 							date='Juil 2023 - Août 2023'
 							desc="Pendant l'été entre ma deuxième et troisème année de BUT, j'ai eu l'opportunité d'utiliser mes compétences acquises en stage dans un milieu complétement nouveau qui est celui de la santé. Pendant un mois, j'ai développé pour une pharmacie un logiciel de gestion de certains éléments administratifs de la pharmacie comme par exemple la gestion de location de matériel, ou encore du stockage et de la recherche de documents administratifs ou de checklists (Voir projet PharmaDesk)."
@@ -94,6 +99,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='red'
 							title='Pharmacie de la Commanderie'
 							date='Jul 2023 - Aug 2023'
 							type='work'
@@ -103,11 +109,11 @@ function Timeline({ locale }: TimelineProps) {
 					)}
 				</div>
 				<Circle></Circle>
-				<Circle></Circle>
 				<div className='grid grid-cols-[auto_1fr] gap-x-2 items-center mx-auto'>
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='red'
 							title='Alternance - DATE'
 							date='Sept 2023 - Juil 2024'
 							type='work'
@@ -116,6 +122,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='red'
 							title='Alternance - DATE'
 							date='Sept 2023 - Juil 2024'
 							type='work'
@@ -130,6 +137,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
 							desc="Après avoir obtenu mon BUT je souhaitais continuer mes études dans une école d'ingénieur en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès car le programme proposée par l'école, notamment dans la spécialité développement logiciel me plaisait. De plus, l'alternance que j'ai trouvé me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi à progresser dans des domaines que je maitrise moins."
@@ -137,6 +145,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - Present'
 							type='school'
@@ -145,11 +154,11 @@ function Timeline({ locale }: TimelineProps) {
 					)}
 				</div>
 				<Circle></Circle>
-				<Circle></Circle>
 				<div className='grid grid-cols-[auto_1fr] gap-x-2 items-center mx-auto'>
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='cyan'
 							title='Alternance - Un Toit Pour Tous'
 							date='Sept 2024 - En cours'
 							desc="Pour accompagner mes trois années à l'IMT Mines d'Alès, j'ai décidé de faire mon alternance chez Un Toit Pour Tous, une entreprise sociale pour l'habitat gérant plus de 10000 logements. Ma mission à Un Toit Pour Tous est de développer un extranet qui permettra aux locataires d'effectuer différentes démarches administratives en ligne. Ce projet est fait en utilisant Windev et Webdev ainsi qu'une base de données HFSQL. Il permettra aussi aux collaborateurs de l'entreprise de gérer les dossiers des locataires. Plus tard, d'autres projets me seront assignés, notamment sur le développement mobile ou d'autres projets que je gérerai de A à Z en tant que chef de projet."
@@ -158,6 +167,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='cyan'
 							title='Work-study - Un Toit Pour Tous'
 							date='Sept 2024 - Present'
 							type='work'
@@ -173,6 +183,7 @@ function Timeline({ locale }: TimelineProps) {
 				<div className='grid grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto'>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Juil 2021'
 							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaine scientifiques en profondeur malgrès des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a poussé vers ma décision d'arrêter la prépa pour m'orienter vers des études d'informatique."
@@ -180,6 +191,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Jul 2021'
 							type='school'
@@ -194,6 +206,7 @@ function Timeline({ locale }: TimelineProps) {
 				<div className='grid grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto'>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='red'
 							title='BUT Informatique'
 							date='Sept 2021 - Juil 2024'
 							type='school'
@@ -201,6 +214,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='red'
 							title='BUT Informatique'
 							date='Sept 2021 - Jul 2024'
 							type='school'
@@ -212,6 +226,7 @@ function Timeline({ locale }: TimelineProps) {
 						<div className='mb-8'>
 							{locale === "fr" ? (
 								<TimelineElement
+									color='red'
 									title='Stage - DATE'
 									date='Avr 2023 - Juil 2023'
 									desc="Pendant ma deuxième année de BUT, j'ai eu a faire un stage d'une durée de 3 mois ayant pour but de donner un avant-goût du monde du travail. Pour ce stage j'ai travaillé chez DATE, une PME ayant pour coeur de métier la fabrication d'échangeur thermique à forte téchnicité, faits sur mesure pou des clients du domaine du spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prennant en compte les différents postes de dépenses allant de la main d'oeuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet de A à Z."
@@ -220,6 +235,7 @@ function Timeline({ locale }: TimelineProps) {
 								></TimelineElement>
 							) : (
 								<TimelineElement
+									color='red'
 									title='Intern - DATE'
 									date='Jul 2023 - Aug 2023'
 									type='work'
@@ -231,6 +247,7 @@ function Timeline({ locale }: TimelineProps) {
 						<div className='mb-8'>
 							{locale === "fr" ? (
 								<TimelineElement
+									color='red'
 									title='Pharmacie de la Commanderie'
 									date='Juil 2023 - Août 2023'
 									desc="Pendant l'été entre ma deuxième et troisème année de BUT, j'ai eu l'opportunité d'utiliser mes compétences acquises en stage dans un milieu complétement nouveau qui est celui de la santé. Pendant un mois, j'ai développé pour une pharmacie un logiciel de gestion de certains éléments administratifs de la pharmacie comme par exemple la gestion de location de matériel, ou encore du stockage et de la recherche de documents administratifs ou de checklists (Voir projet PharmaDesk)."
@@ -239,6 +256,7 @@ function Timeline({ locale }: TimelineProps) {
 								></TimelineElement>
 							) : (
 								<TimelineElement
+									color='red'
 									title='Pharmacie de la Commanderie'
 									date='Jul 2023 - Aug 2023'
 									type='work'
@@ -250,6 +268,7 @@ function Timeline({ locale }: TimelineProps) {
 						<div>
 							{locale === "fr" ? (
 								<TimelineElement
+									color='red'
 									title='Alternance - DATE'
 									date='Sept 2023 - Juil 2024'
 									type='work'
@@ -258,6 +277,7 @@ function Timeline({ locale }: TimelineProps) {
 								></TimelineElement>
 							) : (
 								<TimelineElement
+									color='red'
 									title='Alternance - DATE'
 									date='Sept 2023 - Juil 2024'
 									type='work'
@@ -273,6 +293,7 @@ function Timeline({ locale }: TimelineProps) {
 				<div className='grid grid-cols-[auto_1fr] md:grid-cols-[1fr_auto_1fr] gap-x-2 items-center mx-auto'>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
 							desc="Après avoir obtenu mon BUT je souhaitais continuer mes études dans une école d'ingénieur en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès car le programme proposée par l'école, notamment dans la spécialité développement logiciel me plaisait. De plus, l'alternance que j'ai trouvé me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi à progresser dans des domaines que je maitrise moins."
@@ -280,6 +301,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - Present'
 							type='school'
@@ -289,6 +311,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
+							color='cyan'
 							title='Alternance - Un Toit Pour Tous'
 							date='Sept 2024 - En cours'
 							desc="Pour accompagner mes trois années à l'IMT Mines d'Alès, j'ai décidé de faire mon alternance chez Un Toit Pour Tous, une entreprise sociale pour l'habitat gérant plus de 10000 logements. Ma mission à Un Toit Pour Tous est de développer un extranet qui permettra aux locataires d'effectuer différentes démarches administratives en ligne. Ce projet est fait en utilisant Windev et Webdev ainsi qu'une base de données HFSQL. Il permettra aussi aux collaborateurs de l'entreprise de gérer les dossiers des locataires. Plus tard, d'autres projets me seront assignés, notamment sur le développement mobile ou d'autres projets que je gérerai de A à Z en tant que chef de projet."
@@ -297,6 +320,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
+							color='cyan'
 							title='Work-study - Un Toit Pour Tous'
 							date='Sept 2024 - Present'
 							type='work'
