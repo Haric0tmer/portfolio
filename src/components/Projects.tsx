@@ -13,7 +13,7 @@ function Projects({ locale }: ProjectProps) {
 			</h2>
 			<p className='text-lg laptop:text-2xl font-light text-center text-white mb-3'>
 				{locale === "fr"
-					? "Au fil de ma formation, j'ai eu l'occasion de réaliser de nombreux projets académiques et professionels. Voici un appercu des quelques projets que j'ai réalisé."
+					? "Au fil de ma formation, j'ai eu l'occasion de réaliser de nombreux projets académiques et professionnels. Voici un aperçu des quelques projets que j'ai réalisés."
 					: "During my formation, I had the opporunity to take part in a lot of academic or professional projects. Here is a selection of a few project I did."}
 			</p>
 			<div className='flex flex-col items-center laptop:flex-row laptop:flex-wrap laptop:justify-evenly'>

@@ -34,7 +34,7 @@ export default function ModalKyoju({
 							</p>
 							<p className='text-xl text-white font-light mt-5 text-justify'>
 								{locale === "fr"
-									? "Mon rôle dans le projet a été de coder certaines mécaniques de jeu comme les collisions ou les déplacements du joueur. Au total nous étions 2 programmeurs dédiés à la partie gameplay.Un autre s'occupait du level design et le dernier d'occupait du design des sprites de Jeremy et Ky0ju ainsi que des interfaces utilisateurs."
+									? "Mon rôle dans le projet a été de coder certaines mécaniques de jeu comme les collisions ou les déplacements du joueur. Au total, nous étions 2 programmeurs dédiés à la partie gameplay.Un autre s'occupait du level design et le dernier s'occupait du design des sprites de Jeremy et Ky0ju ainsi que des interfaces utilisateurs."
 									: "My role in the project was to code some of the game mechanics like collisions or player movements. In total we were 2 programmers dedicated to the gameplay part. Another one was incharge of the level design and the last one was in charge ofdesigning the sprites of Jeremy and Ky0ju as well as the userinterfaces."}
 							</p>
 							<div className='flex flex-col justify-center items-center'>

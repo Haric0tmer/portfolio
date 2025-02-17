@@ -27,7 +27,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Juil 2021'
-							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaines scientifiques en profondeur malgré des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a décidé d'arrêter la prépa en fin d'anné pour m'orienter vers des études d'informatique."
+							desc="Après ma première année de prépa, j'ai décidé de m'orienter vers le BUT Informatique à l'IUT2 de Grenoble. Bien que j'aie changé de formation, le but final a toujours été de rejoindre une école d'ingénieur. J'ai préféré le BUT, car c'est une formation plus pratique et spécialisée sur l'informatique par rapport à la prépa. En deuxième année, j'ai choisi la spécialité Réalisation d'applications : conception, développement, validation. Durant les 3 années de BUT, j'ai découvert et approfondi mes connaissances dans différents domaines de l'informatique comme le développement, les bases de données, les réseaux, mais aussi des notions comme la gestion de projet ou l'économie."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -70,7 +70,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='red'
 							title='Stage - DATE'
 							date='Avr 2023 - Juil 2023'
-							desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage j'ai travaillé chez DATE, une PME ayant pour coeur de métier la fabrication d'échangeur thermique à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main d'oeuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
+							desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage, j'ai travaillé chez DATE, une PME ayant pour cœur de métier la fabrication d'échangeurs thermiques à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main-d'œuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
 							type='work'
 							tech={["html", "css", "js", "php", "pg"]}
 						></TimelineElement>
@@ -93,7 +93,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='red'
 							title='Pharmacie de la Commanderie'
 							date='Juil 2023 - Août 2023'
-							desc="Pendant l'été entre ma deuxième et troisième année de BUT, j'ai eu l'opportunité d'utiliser mes compétences acquises en stage dans le milieu de la santé. Pendant un mois, j'ai développé pour une pharmacie, un logiciel de gestion de certains éléments administratifs clé : gestion de location de matériel, stockage, recherche de documents administratifs et création de checklists (Voir projet PharmaDesk)."
+							desc="Pendant l'été entre ma deuxième et ma troisième année de BUT, j'ai eu l'opportunité d'utiliser mes compétences acquises en stage dans le milieu de la santé. Pendant un mois, j'ai développé pour une pharmacie un logiciel de gestion de certains éléments administratifs clés : gestion de location de matériel, stockage, recherche de documents administratifs et création de checklists (Voir projet PharmaDesk)."
 							type='work'
 							tech={["html", "css", "js", "php", "pg"]}
 						></TimelineElement>
@@ -118,7 +118,7 @@ function Timeline({ locale }: TimelineProps) {
 							date='Sept 2023 - Juil 2024'
 							type='work'
 							tech={["react", "next", "pg", "html", "css"]}
-							desc="Après le succès de mon stage chez DATE, j'ai décidé de faie ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été dans un premier temps de terminer l'application de chiffrage des projets démarée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
+							desc="Après le succès de mon stage chez DATE, j'ai décidé de faire ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été, dans un premier temps, de terminer l'application de chiffrage des projets démarrée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer dans l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
 						></TimelineElement>
 					) : (
 						<TimelineElement
@@ -140,7 +140,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
-							desc="Après avoir obtenu mon BUT je souhaitais continuer mes études dans une école d'ingénieur en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès car le programme proposée par l'école, notamment dans la spécialité développement logiciel me plaisait. De plus, l'alternance que j'ai trouvé me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi à progresser dans des domaines que je maitrise moins."
+							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieurs en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -186,7 +186,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Juil 2021'
-							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaine scientifiques en profondeur malgrès des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a poussé vers ma décision d'arrêter la prépa pour m'orienter vers des études d'informatique."
+							desc="Après ma première année de prépa, j'ai décidé de m'orienter vers le BUT Informatique à l'IUT2 de Grenoble. Bien que j'aie changé de formation, le but final a toujours été de rejoindre une école d'ingénieur. J'ai préféré le BUT, car c'est une formation plus pratique et spécialisée sur l'informatique par rapport à la prépa. En deuxième année, j'ai choisi la spécialité Réalisation d'applications : conception, développement, validation. Durant les 3 années de BUT, j'ai découvert et approfondi mes connaissances dans différents domaines de l'informatique comme le développement, les bases de données, les réseaux, mais aussi des notions comme la gestion de projet ou l'économie."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -229,7 +229,7 @@ function Timeline({ locale }: TimelineProps) {
 									color='red'
 									title='Stage - DATE'
 									date='Avr 2023 - Juil 2023'
-									desc="Pendant ma deuxième année de BUT, j'ai eu a faire un stage d'une durée de 3 mois ayant pour but de donner un avant-goût du monde du travail. Pour ce stage j'ai travaillé chez DATE, une PME ayant pour coeur de métier la fabrication d'échangeur thermique à forte téchnicité, faits sur mesure pou des clients du domaine du spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prennant en compte les différents postes de dépenses allant de la main d'oeuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet de A à Z."
+									desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage, j'ai travaillé chez DATE, une PME ayant pour cœur de métier la fabrication d'échangeurs thermiques à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main-d'œuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
 									type='work'
 									tech={["html", "css", "js", "php", "pg"]}
 								></TimelineElement>
@@ -250,7 +250,7 @@ function Timeline({ locale }: TimelineProps) {
 									color='red'
 									title='Pharmacie de la Commanderie'
 									date='Juil 2023 - Août 2023'
-									desc="Pendant l'été entre ma deuxième et troisème année de BUT, j'ai eu l'opportunité d'utiliser mes compétences acquises en stage dans un milieu complétement nouveau qui est celui de la santé. Pendant un mois, j'ai développé pour une pharmacie un logiciel de gestion de certains éléments administratifs de la pharmacie comme par exemple la gestion de location de matériel, ou encore du stockage et de la recherche de documents administratifs ou de checklists (Voir projet PharmaDesk)."
+									desc="Pendant l'été entre ma deuxième et ma troisième année de BUT, j'ai eu l'opportunité d'utiliser mes compétences acquises en stage dans le milieu de la santé. Pendant un mois, j'ai développé pour une pharmacie un logiciel de gestion de certains éléments administratifs clés : gestion de location de matériel, stockage, recherche de documents administratifs et création de checklists (Voir projet PharmaDesk)."
 									type='work'
 									tech={["html", "css", "js", "php", "pg"]}
 								></TimelineElement>
@@ -273,7 +273,7 @@ function Timeline({ locale }: TimelineProps) {
 									date='Sept 2023 - Juil 2024'
 									type='work'
 									tech={["react", "next", "pg", "html", "css"]}
-									desc="J'ai eu l'occasion de faire ma troisième année de BUT en alternance. Après l'expérience du stage qui s'est bien passée, j'ai décidé, d'un accord commun avec DATE, de faie cette année d'alternance chez eux. Ma mission pour cette année a été dans un premier temps de terminer l'application de chiffrage des projets. Mon deuxième projet était une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet. Les employés peuvent aller sur l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
+									desc="Après le succès de mon stage chez DATE, j'ai décidé de faire ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été, dans un premier temps, de terminer l'application de chiffrage des projets démarrée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer dans l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
 								></TimelineElement>
 							) : (
 								<TimelineElement
@@ -296,7 +296,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
-							desc="Après avoir obtenu mon BUT je souhaitais continuer mes études dans une école d'ingénieur en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès car le programme proposée par l'école, notamment dans la spécialité développement logiciel me plaisait. De plus, l'alternance que j'ai trouvé me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi à progresser dans des domaines que je maitrise moins."
+							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieurs en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
 							type='school'
 						></TimelineElement>
 					) : (
