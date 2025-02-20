@@ -55,7 +55,7 @@ function Timeline({ locale }: TimelineProps) {
 					) : (
 						<TimelineElement
 							color='red'
-							title='BUT Informatique'
+							title='Bachelor in computer science'
 							date='Sept 2021 - Jul 2024'
 							type='school'
 							desc='After my first year at La prepa des INP, I decided to go towards a bachelor in computer science at the IUT2 of Grenoble. Even though I changed my formation, my final goal was always to join an engineering school. I preferred the BUT because it has  more practical courses focused in computer science compared to the prepa. In my second year, I chose to specialize in application devlopment. During the 3 years of BUT, I discovered and improved my knowledge in different fields of computer science such as development, databases, networks but also notions like project management or economics.'
@@ -77,7 +77,7 @@ function Timeline({ locale }: TimelineProps) {
 					) : (
 						<TimelineElement
 							color='red'
-							title='Intern - DATE'
+							title='Internship - DATE'
 							date='Jul 2023 - Aug 2023'
 							type='work'
 							tech={["html", "css", "js", "php", "pg"]}
@@ -123,7 +123,7 @@ function Timeline({ locale }: TimelineProps) {
 					) : (
 						<TimelineElement
 							color='red'
-							title='Alternance - DATE'
+							title='Work-study - DATE'
 							date='Sept 2023 - Juil 2024'
 							type='work'
 							tech={["react", "next", "pg", "html", "css"]}
@@ -215,7 +215,7 @@ function Timeline({ locale }: TimelineProps) {
 					) : (
 						<TimelineElement
 							color='red'
-							title='BUT Informatique'
+							title='Bachelor in computer science'
 							date='Sept 2021 - Jul 2024'
 							type='school'
 							desc='After my first year at La prepa des INP, I decided to go towards a bachelor in computer science at the IUT2 of Grenoble. My final goal remained to join an engineering school. I preferred the BUT because it has  more practical courses focused in computer science compared to the prepa. In my second year, I chose to specialize in application development. During the 3 years of BUT, I discovered and improved my knowledge in different fields of computer science such as development, databases, networks but also notions like project management or economics.'
@@ -236,7 +236,7 @@ function Timeline({ locale }: TimelineProps) {
 							) : (
 								<TimelineElement
 									color='red'
-									title='Intern - DATE'
+									title='Internship - DATE'
 									date='Jul 2023 - Aug 2023'
 									type='work'
 									tech={["html", "css", "js", "php", "pg"]}
@@ -278,7 +278,7 @@ function Timeline({ locale }: TimelineProps) {
 							) : (
 								<TimelineElement
 									color='red'
-									title='Alternance - DATE'
+									title='Work-study - DATE'
 									date='Sept 2023 - Juil 2024'
 									type='work'
 									tech={["react", "next", "pg", "html", "css"]}
