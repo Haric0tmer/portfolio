@@ -17,7 +17,7 @@ function Pharmadesk({ locale }: HopefieldCardProps) {
 	const [showModal, setShowModal] = useState(false);
 
 	return (
-		<div className='border-4 border-slate-400 flex flex-col justify-center items-center rounded-md w-fit p-5 mt-5'>
+		<div className='border-4 mx-2 border-slate-400 flex flex-col justify-center items-center rounded-md w-fit p-5 mt-5'>
 			<h3 className='text-center text-white text-3xl'>PharmaDesk</h3>
 			<img
 				src={pharmadeskImage}

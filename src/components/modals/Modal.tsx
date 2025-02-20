@@ -18,7 +18,7 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
 							À propos de moi
 						</h3>
 						{/*body*/}
-						<div className='relative p-6 flex-auto'>
+						<div className='relative p-6 flex-auto overflow-y-auto max-h-[calc(100vh-200px)]'>
 							<p className='text-xl text-white font-light mt-5 text-justify'>
 								{locale === "fr"
 									? "Bonjour, je suis Laurent Boualavong, actuellement en 1ère année aux Mines d'Alès dans la filière informatique et réseaux, parcours développement logiciel en alternance. Principalement intéressé par le développement web et logiciel, j'aime pouvoir utiliser mes capacités afin de trouver des solutions aux problèmes des utilisateurs. Curieux, j'adore acquérir de nouvelles connaissances sur divers sujets."
@@ -37,7 +37,7 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
 							<p className='text-xl text-white font-light mt-3 text-justify'>
 								{locale === "fr"
 									? "Passionné de sport, je pratique du volleyball en compétition depuis 5 ans et suis capitaine de mon équipe depuis 4 ans. Avant cela, j'ai fait du tennis en compétition pendant 10 ans. Lorsque je ne fais pas de sport, j'aime cuisiner ou jouer à des jeux vidéo. J'aime écouter de la musique et je joue occasionnellement de la guitare et du piano."
-									: "Sport lover, I have been playing volleyball copetitively for 5 years and have been team captain for 4 years. Before that, I played tennis competitively for 10 years. When I am not doing sport, I enjoy cooking or playing video games. I enjoy listening to music and I occasionnaly play guitar and piano."}
+									: "Sport lover, I have been playing volleyball competitively for 5 years and have been team captain for 4 years. Before that, I played tennis competitively for 10 years. When I am not practising sport, I enjoy cooking or playing video games. I enjoy listening to music and I occasionaly play guitar and piano."}
 							</p>
 						</div>
 						{/*footer*/}

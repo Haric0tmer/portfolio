@@ -21,20 +21,18 @@ export default function ModalHopeField({
 					{/*content*/}
 					<div className='border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-700 outline-none focus:outline-none max-h-screen'>
 						{/*header*/}
-						<h3 className='text-4xl text-white text-center mt-5'>
-							Ky0ju's Reminiscence
-						</h3>
+						<h3 className='text-4xl text-white text-center mt-5'>PharmaDesk</h3>
 						{/*body*/}
 						<div className='relative p-6 flex-auto overflow-y-auto max-h-[calc(100vh-200px)]'>
 							<p className='text-xl text-white font-light mt-5 text-justify'>
 								{locale === "fr"
-									? "PharmaDesk est mon deuxième projet professionnel. Il a été réalisé à la suite de mon stage de deuxième année durant l'été 2023. PharmaDesk est une application web faite en PHP, HTML, CSS et JavaScript. Elle permet à une pharmacie de gérer certains aspects backoffice du métier, comme la location de matériel médical. Elle permet aussi d'enregistrer des documents administratifs et des procédures afin de les rendre facilement accessibles pour les employés. Il est aussi possible d'enregistrer des contacts afin de se construire un annuaire des contacts utiles."
-									: "PharmaDesk is my second professional project. It was done aftermy second year internship during the summer of 2023. PharmaDesk is a web application made in PHP, HTML, CSS and JavaScript. Itallows a pharmacy to manage some backoffice aspects of thebusiness such as the rental of medical equipment. It also allowsto register administrative documents and procedures to make them easily accessible for employees. It also gives the opportunity to register contacts in order to build a directory of useful contacts."}
+									? "PharmaDesk est mon deuxième projet professionnel. Il a été réalisé pendant l'été 2023. PharmaDesk est une application web faite en PHP, HTML, CSS et JavaScript. Elle permet à une pharmacie de gérer certains aspects backoffice du métier, comme la location de matériel médical. Elle permet aussi d'enregistrer des documents administratifs et des procédures afin de les rendre facilement accessibles pour les employés. Il est aussi possible d'enregistrer des contacts afin de se construire un annuaire des contacts utiles."
+									: "PharmaDesk is my second professional project. It was done during the summer of 2023. PharmaDesk is a web application made in PHP, HTML, CSS and JavaScript. It allows a pharmacy to manage some backoffice aspects of the business such as the rental of medical equipment. It also allows to register administrative documents and procedures to make them easily accessible for employees. It also gives the opportunity to save contacts in order to build a directory of useful contacts."}
 							</p>
 							<p className='text-xl text-white font-light mt-5 text-justify'>
 								{locale === "fr"
-									? "Pour faire ce projet, j'ai eu un total de 4 semaines pour prendre en compte tous les aspects du développement d'une application, de la conception à la mise en production. Au cours de ce projet, j'ai eu l'occasion d'utiliser toutes les connaissances acquises durant mon stage afin de produire une application du même niveau dans un laps de temps trois fois plus court."
-									: "To do this project I had a total of 4 weeks to take into account all aspects of developing an application from design toproduction. During this project I had the opportunity to use allthe knowledge acquired during my internship to produce anapplication of the same level in a time frame three times shorter."}
+									? "Pour faire ce projet, j'ai eu un total de 4 semaines pour prendre en compte tous les aspects du développement d'une application, de la capture des besoins utilisateurs, à la conception, à la mise en production. Au cours de ce projet, j'ai eu l'occasion d'utiliser toutes les connaissances acquises durant mon stage afin de produire une application du même niveau dans un laps de temps trois fois plus court. L'application est aujourd'hui utilisée en routine par tout le personnel de la pharmacie."
+									: "To do this project I had a total of 4 weeks to take into account all aspects of developing an application from fetching user requirements, to design, to production. During this project I had the opportunity to use all the knowledge acquired during my internship to produce an application of the same level in a time frame three times shorter. Today, the application is used daily by the pharmacy staff."}
 							</p>
 							<div className='flex flex-col justify-center items-center'>
 								<div className='flex flex-col justify-center items-center'>

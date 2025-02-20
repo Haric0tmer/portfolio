@@ -27,7 +27,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Juil 2021'
-							desc="Après ma première année de prépa, j'ai décidé de m'orienter vers le BUT Informatique à l'IUT2 de Grenoble. Bien que j'aie changé de formation, le but final a toujours été de rejoindre une école d'ingénieur. J'ai préféré le BUT, car c'est une formation plus pratique et spécialisée sur l'informatique par rapport à la prépa. En deuxième année, j'ai choisi la spécialité Réalisation d'applications : conception, développement, validation. Durant les 3 années de BUT, j'ai découvert et approfondi mes connaissances dans différents domaines de l'informatique comme le développement, les bases de données, les réseaux, mais aussi des notions comme la gestion de projet ou l'économie."
+							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaines scientifiques en profondeur malgré des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a décidé d'arrêter la prépa en fin d'année pour m'orienter vers des études d'informatique."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -140,7 +140,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
-							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieurs en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
+							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieus en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -186,7 +186,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='yellow'
 							title='La prepa des INP'
 							date='Sept 2020 - Juil 2021'
-							desc="Après ma première année de prépa, j'ai décidé de m'orienter vers le BUT Informatique à l'IUT2 de Grenoble. Bien que j'aie changé de formation, le but final a toujours été de rejoindre une école d'ingénieur. J'ai préféré le BUT, car c'est une formation plus pratique et spécialisée sur l'informatique par rapport à la prépa. En deuxième année, j'ai choisi la spécialité Réalisation d'applications : conception, développement, validation. Durant les 3 années de BUT, j'ai découvert et approfondi mes connaissances dans différents domaines de l'informatique comme le développement, les bases de données, les réseaux, mais aussi des notions comme la gestion de projet ou l'économie."
+							desc="Après le lycée, j'ai fait le choix d'intégrer la prépa des INP de Nancy dans le but de rejoindre une école d'ingénieur du groupe INP. Durant cette année, j'ai pu découvrir plusieurs domaines scientifiques en profondeur malgré des conditions de travail compliquées par le confinement du COVID-19. J'ai notamment pu découvrir l'informatique ce qui m'a décidé d'arrêter la prépa en fin d'année pour m'orienter vers des études d'informatique."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -195,7 +195,7 @@ function Timeline({ locale }: TimelineProps) {
 							title='La prepa des INP'
 							date='Sept 2020 - Jul 2021'
 							type='school'
-							desc='After high school, I decided to join La prepa des INP in Nancy with the goal of joining an engineering school from the INP group. During this year, I was able to discover several scientific fields in depth despite difficult working conditions due to the COVID-19 lockdown. I was able to discover computer science which pushed me towards my decision to stop my current formation and go towards computer science studies.'
+							desc='After high school, I decided to join La prepa des INP in Nancy with the goal of joining an engineering school from the INP group. During this year, I was able to discover several scientific fields in depth despite difficult working conditions due to the COVID-19 lockdown. I was able to discover computer science which pushed me towards my decision to stop my current course and go towards computer science studies.'
 						></TimelineElement>
 					)}
 					<Line></Line>
@@ -210,7 +210,7 @@ function Timeline({ locale }: TimelineProps) {
 							title='BUT Informatique'
 							date='Sept 2021 - Juil 2024'
 							type='school'
-							desc="Après ma première année de prépa, j'ai décidé de m'orienter vers le BUT informatique à l'IUT2 de Grenoble. Bien que j'ai changé de formation, le but final a toujours été de rejoindre une école d'ingénieur. J'ai préféré le BUT car c'est une formation plus pratique et spécialisée sur l'informatique par rapport à la prépa. En deuxième année, j'ai choisi la spécialité réalisation d'applications : conception développement validation. Durant les 3 années de BUT, j'ai découvert  et appronfondi mes connaissances dans différents domaines de l'informatique comme le développement, les bases de données, les réseaux mais aussi des notions comme la gestion de projet ou l'économie."
+							desc="Après ma première année de prépa, j'ai décidé de m'orienter vers le BUT informatique à l'IUT2 de Grenoble. Mon objectif final a toujours été de rejoindre une école d'ingénieur. J'ai préféré le BUT car c'est une formation plus pratique et spécialisée sur l'informatique par rapport à la prépa. En deuxième année, j'ai choisi la spécialité réalisation d'applications : conception développement validation. Durant les 3 années de BUT, j'ai découvert et approfondi mes connaissances dans différents domaines de l'informatique comme le développement, les bases de données, les réseaux mais aussi des notions comme la gestion de projet ou l'économie."
 						></TimelineElement>
 					) : (
 						<TimelineElement
@@ -218,7 +218,7 @@ function Timeline({ locale }: TimelineProps) {
 							title='BUT Informatique'
 							date='Sept 2021 - Jul 2024'
 							type='school'
-							desc='After my first year at La prepa des INP, I decided to go towards a bachelor in computer science at the IUT2 of Grenoble. Even though I changed my formation, my final goal was always to join an engineering school. I preferred the BUT because it has  more practical courses focused in computer science compared to the prepa. In my second year, I chose to specialize in application devlopment. During the 3 years of BUT, I discovered and improved my knowledge in different fields of computer science such as development, databases, networks but also notions like project management or economics.'
+							desc='After my first year at La prepa des INP, I decided to go towards a bachelor in computer science at the IUT2 of Grenoble. My final goal remained to join an engineering school. I preferred the BUT because it has  more practical courses focused in computer science compared to the prepa. In my second year, I chose to specialize in application development. During the 3 years of BUT, I discovered and improved my knowledge in different fields of computer science such as development, databases, networks but also notions like project management or economics.'
 						></TimelineElement>
 					)}
 					<Line></Line>
@@ -261,7 +261,7 @@ function Timeline({ locale }: TimelineProps) {
 									date='Jul 2023 - Aug 2023'
 									type='work'
 									tech={["html", "css", "js", "php", "pg"]}
-									desc='After high school, I decided to join La prepa des INP in Nancy with the goal of joining an engineering school from the INP group. During this year, I was able to discover several scientific fields in depth despite difficult working conditions due to the COVID-19 lockdown. I was able to discover computer science which pushed me towards my decision to stop my current formation and go towards computer science studies.'
+									desc="During the summer between my second and third year at of my Bachelor's degree, I had the opportunity to use the skills I acquired during my internship in the healthcare sector. For a month, I developed software for a pharmacy to manage a number of key administrative elements: management of equipment rental, storage, searching for administrative documents and creating checklists (see PharmaDesk project)."
 								></TimelineElement>
 							)}
 						</div>
@@ -282,7 +282,7 @@ function Timeline({ locale }: TimelineProps) {
 									date='Sept 2023 - Juil 2024'
 									type='work'
 									tech={["react", "next", "pg", "html", "css"]}
-									desc="For my bachelor's third year, I had the opportunity to do a work-study program. After the great experience of my internship, I decided, with DATE, to do this work-study program with them to continue my mission. The first thing I had to do was to finish the application I started during my internship. My second project was an application that allows to stored and research data from the company's project in order to help during the study phase of a project. The employees can go to the application and search by using various technical or administrative criteria to find out what was done in the past for a similar project."
+									desc="After the success my internship, I decided to do this work-study program with them. The first thing I had to do was to finish the application I started during my internship. My second project was an application that allows to stored and research data from the company's project in order to help during the study phase of a project to generate consistent estimates. The employees can navigate through the application and search by using various technical or administrative criteria to find out what was done in the past for a similar project."
 								></TimelineElement>
 							)}
 						</div>
@@ -296,7 +296,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
-							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieurs en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
+							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieur en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, répondait à mes attentes et objectifs. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
 							type='school'
 						></TimelineElement>
 					) : (
@@ -314,7 +314,7 @@ function Timeline({ locale }: TimelineProps) {
 							color='cyan'
 							title='Alternance - Un Toit Pour Tous'
 							date='Sept 2024 - En cours'
-							desc="Pour accompagner mes trois années à l'IMT Mines d'Alès, j'ai décidé de faire mon alternance chez Un Toit Pour Tous, une entreprise sociale pour l'habitat gérant plus de 10000 logements. Ma mission à Un Toit Pour Tous est de développer un extranet qui permettra aux locataires d'effectuer différentes démarches administratives en ligne. Ce projet est fait en utilisant Windev et Webdev ainsi qu'une base de données HFSQL. Il permettra aussi aux collaborateurs de l'entreprise de gérer les dossiers des locataires. Plus tard, d'autres projets me seront assignés, notamment sur le développement mobile ou d'autres projets que je gérerai de A à Z en tant que chef de projet."
+							desc="Pour accompagner mes trois années à l'IMT Mines d'Alès, j'ai décidé de faire mon alternance chez Un Toit Pour Tous, une entreprise sociale pour l'habitat gérant plus de 10000 logements. Ma mission à Un Toit Pour Tous est de développer un extranet qui permettra aux locataires d'effectuer différentes démarches administratives en ligne. Ce projet est fait en utilisant Windev et Webdev ainsi qu'une base de données HFSQL. Il permettra aussi aux collaborateurs de l'entreprise de gérer les dossiers des locataires. Plus tard, d'autres projets me seront assignés comme chef de projet informatique, notamment sur le développement mobile."
 							type='work'
 							tech={["pcsoft", "sql"]}
 						></TimelineElement>
@@ -324,7 +324,7 @@ function Timeline({ locale }: TimelineProps) {
 							title='Work-study - Un Toit Pour Tous'
 							date='Sept 2024 - Present'
 							type='work'
-							desc="To accompany my three years at IMT Mines d'Alès, I chose to do my work-study program with Un Toit Pour Tous, a social housing company managing more that 10000 housing units. My mission at Un Toit Pour Tous is to develop an extranet that will allow tenants to do various administrative procedures online. This project is made with Windev and Webdev with a HFSQL database. It will also allow the company's employees to manage the tenants' files. Later, other projects will be assigned to me, including mobile development or other projects that I will manage from strat to finish as a project manager."
+							desc="To accompany my three years at IMT Mines d'Alès, I chose to do my work-study program with Un Toit Pour Tous, a social housing company managing more that 10000 housing units. My mission at Un Toit Pour Tous is to develop an extranet that will allow tenants to do various administrative procedures online. This project is made with Windev and Webdev with a HFSQL database. It will also allow the company's employees to manage the tenants' files. Later, other projects will be assigned to me as a project manager, including mobile development."
 						></TimelineElement>
 					)}
 				</div>
