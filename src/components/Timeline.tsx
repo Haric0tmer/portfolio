@@ -8,7 +8,7 @@ interface TimelineProps {
 
 function Timeline({ locale }: TimelineProps) {
 	return (
-		<div className=''>
+		<div id='timeline'>
 			<h2 className='text-3xl mb-6 text-white text-center mt-12 laptop:text-6xl laptop:mt-18 '>
 				{locale === "fr" ? "Mon parcours" : "My journey"}
 			</h2>
@@ -68,20 +68,20 @@ function Timeline({ locale }: TimelineProps) {
 					{locale === "fr" ? (
 						<TimelineElement
 							color='red'
-							title='Stage - DATE'
+							title='Stage - D.A.T.E'
 							date='Avr 2023 - Juil 2023'
-							desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage, j'ai travaillé chez DATE, une PME ayant pour cœur de métier la fabrication d'échangeurs thermiques à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main-d'œuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
+							desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage, j'ai travaillé chez D.A.T.E, une PME ayant pour cœur de métier la fabrication d'échangeurs thermiques à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez D.A.T.E était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main-d'œuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
 							type='work'
 							tech={["html", "css", "js", "php", "pg"]}
 						></TimelineElement>
 					) : (
 						<TimelineElement
 							color='red'
-							title='Internship - DATE'
+							title='Internship - D.A.T.E'
 							date='Jul 2023 - Aug 2023'
 							type='work'
 							tech={["html", "css", "js", "php", "pg"]}
-							desc='During the second year of my bachelor, I did an internship of 3 months to understand the world of work. For this internship, I worked at DATE, a SME specialized in the manufacturing of high-end custom-made heat exchangers for clients in the space, defense or industry sectors. My mission at DATE was to create an application to estimate the cost of a project by taking into account the different expenses ranging from labor to raw materials. I was able to discover the world of industry and business, but also learn to work independently and manage a project from start to finish.'
+							desc='During the second year of my bachelor, I did an internship of 3 months to understand the world of work. For this internship, I worked at D.A.T.E, a SME specialized in the manufacturing of high-end custom-made heat exchangers for clients in the space, defense or industry sectors. My mission at D.A.T.E was to create an application to estimate the cost of a project by taking into account the different expenses ranging from labor to raw materials. I was able to discover the world of industry and business, but also learn to work independently and manage a project from start to finish.'
 						></TimelineElement>
 					)}
 				</div>
@@ -114,16 +114,16 @@ function Timeline({ locale }: TimelineProps) {
 					{locale === "fr" ? (
 						<TimelineElement
 							color='red'
-							title='Alternance - DATE'
+							title='Alternance - D.A.T.E'
 							date='Sept 2023 - Juil 2024'
 							type='work'
 							tech={["react", "next", "pg", "html", "css"]}
-							desc="Après le succès de mon stage chez DATE, j'ai décidé de faire ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été, dans un premier temps, de terminer l'application de chiffrage des projets démarrée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer dans l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
+							desc="Après le succès de mon stage chez D.A.T.E, j'ai décidé de faire ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été, dans un premier temps, de terminer l'application de chiffrage des projets démarrée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer dans l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
 						></TimelineElement>
 					) : (
 						<TimelineElement
 							color='red'
-							title='Work-study - DATE'
+							title='Work-study - D.A.T.E'
 							date='Sept 2023 - Juil 2024'
 							type='work'
 							tech={["react", "next", "pg", "html", "css"]}
@@ -137,7 +137,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
-							color='cyan'
+							color='blue'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
 							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieus en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
@@ -145,7 +145,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
-							color='cyan'
+							color='blue'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - Present'
 							type='school'
@@ -158,7 +158,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
-							color='cyan'
+							color='blue'
 							title='Alternance - Un Toit Pour Tous'
 							date='Sept 2024 - En cours'
 							desc="Pour accompagner mes trois années à l'IMT Mines d'Alès, j'ai décidé de faire mon alternance chez Un Toit Pour Tous, une entreprise sociale pour l'habitat gérant plus de 10000 logements. Ma mission à Un Toit Pour Tous est de développer un extranet qui permettra aux locataires d'effectuer différentes démarches administratives en ligne. Ce projet est fait en utilisant Windev et Webdev ainsi qu'une base de données HFSQL. Il permettra aussi aux collaborateurs de l'entreprise de gérer les dossiers des locataires. Plus tard, d'autres projets me seront assignés, notamment sur le développement mobile ou d'autres projets que je gérerai de A à Z en tant que chef de projet."
@@ -167,7 +167,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
-							color='cyan'
+							color='blue'
 							title='Work-study - Un Toit Pour Tous'
 							date='Sept 2024 - Present'
 							type='work'
@@ -227,20 +227,20 @@ function Timeline({ locale }: TimelineProps) {
 							{locale === "fr" ? (
 								<TimelineElement
 									color='red'
-									title='Stage - DATE'
+									title='Stage - D.A.T.E'
 									date='Avr 2023 - Juil 2023'
-									desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage, j'ai travaillé chez DATE, une PME ayant pour cœur de métier la fabrication d'échangeurs thermiques à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez DATE était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main-d'œuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
+									desc="Pendant ma deuxième année de BUT, j'ai fait un stage de 3 mois pour comprendre le monde du travail. Pour ce stage, j'ai travaillé chez D.A.T.E, une PME ayant pour cœur de métier la fabrication d'échangeurs thermiques à forte technicité, faits sur mesure pour des clients du domaine spatial, de la défense ou encore de l'industrie. Ma mission chez D.A.T.E était de réaliser une application permettant de chiffrer un projet en prenant en compte les différents postes de dépenses allant de la main-d'œuvre à la matière première. J'ai pu découvrir le monde de l'industrie et de l'entreprise, mais aussi apprendre à travailler en autonomie et à gérer un projet du début à la fin."
 									type='work'
 									tech={["html", "css", "js", "php", "pg"]}
 								></TimelineElement>
 							) : (
 								<TimelineElement
 									color='red'
-									title='Internship - DATE'
+									title='Internship - D.A.T.E'
 									date='Jul 2023 - Aug 2023'
 									type='work'
 									tech={["html", "css", "js", "php", "pg"]}
-									desc='During the second year of my bachelor, I had to complete an internship of 3 months to get a taste of the working world. For this internship, I worked at DATE, a SME specialized in the manufacturing of high-end custom-made heat exchangers for clients in the space, defense or industry sectors. My mission at DATE was to create an application to estimate the cost of a project by taking into account the different expenses ranging from labor to raw materials. I was able to discover the world of industry and business, but also learn to work independently and manage a project from start to finish.'
+									desc='During the second year of my bachelor, I had to complete an internship of 3 months to get a taste of the working world. For this internship, I worked at D.A.T.E, a SME specialized in the manufacturing of high-end custom-made heat exchangers for clients in the space, defense or industry sectors. My mission at D.A.T.E was to create an application to estimate the cost of a project by taking into account the different expenses ranging from labor to raw materials. I was able to discover the world of industry and business, but also learn to work independently and manage a project from start to finish.'
 								></TimelineElement>
 							)}
 						</div>
@@ -269,16 +269,16 @@ function Timeline({ locale }: TimelineProps) {
 							{locale === "fr" ? (
 								<TimelineElement
 									color='red'
-									title='Alternance - DATE'
+									title='Alternance - D.A.T.E'
 									date='Sept 2023 - Juil 2024'
 									type='work'
 									tech={["react", "next", "pg", "html", "css"]}
-									desc="Après le succès de mon stage chez DATE, j'ai décidé de faire ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été, dans un premier temps, de terminer l'application de chiffrage des projets démarrée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer dans l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
+									desc="Après le succès de mon stage chez D.A.T.E, j'ai décidé de faire ma troisième année de BUT en alternance chez eux. Ma mission pour cette année a été, dans un premier temps, de terminer l'application de chiffrage des projets démarrée pendant mon stage. Mon deuxième projet avait pour objectif de développer une application permettant de stocker et rechercher des données sur des anciens projets de l'entreprise pour aider lors de la phase d'étude d'un projet afin de générer des devis client constants. Les employés peuvent naviguer dans l'application et rechercher en utilisant divers critères techniques ou administratifs pour savoir ce qui a été fait par le passé pour un projet similaire."
 								></TimelineElement>
 							) : (
 								<TimelineElement
 									color='red'
-									title='Work-study - DATE'
+									title='Work-study - D.A.T.E'
 									date='Sept 2023 - Juil 2024'
 									type='work'
 									tech={["react", "next", "pg", "html", "css"]}

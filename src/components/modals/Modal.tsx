@@ -15,7 +15,7 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
 					<div className='border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-700 outline-none focus:outline-none'>
 						{/*header*/}
 						<h3 className='text-4xl text-white text-center mt-5'>
-							À propos de moi
+							{locale === "fr" ? "À propos de moi" : "About me"}
 						</h3>
 						{/*body*/}
 						<div className='relative p-6 flex-auto overflow-y-auto max-h-[calc(100vh-200px)]'>
@@ -32,7 +32,7 @@ export default function Modal({ locale, showModal, setShowModal }: ModalProps) {
 							<p className='text-xl text-white font-light mt-3 text-justify'>
 								{locale === "fr"
 									? "Mes origines multiculturelles et ma curiosité m'ont amené à voyager dans de nombreux pays (Europe, Asie, Amérique du Nord) et ont ouvert mon esprit."
-									: "My multicultural origins and my curiosity brought me to travel to different countries (Europe, Asie, North America) "}
+									: "My multicultural origins and my curiosity brought me to travel to different countries (Europe, Asia, North America). "}
 							</p>
 							<p className='text-xl text-white font-light mt-3 text-justify'>
 								{locale === "fr"

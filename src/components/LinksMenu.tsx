@@ -32,6 +32,14 @@ function LinksMenu({ locale }: LinksMenuProps) {
 					{locale === "fr" ? "A propos" : "About me"}
 				</Button>
 			</a>
+			<a href='#timeline'>
+				<Button
+					variant={"ghost"}
+					className='text-white hover:bg-slate-600 hover:text-white w-full'
+				>
+					{locale === "fr" ? "Parcours" : "Journey"}
+				</Button>
+			</a>
 		</>
 	);
 }

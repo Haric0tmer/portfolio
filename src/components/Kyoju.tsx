@@ -27,12 +27,12 @@ function Kyoju({ locale }: HopefieldCardProps) {
 					<img
 						src={pythonLogo}
 						alt='logoHTML'
-						className='sm:w-[48px] sm:h-[48px] w-[32px] h-[32px] sm:mx-0 mx-2'
+						className='sm:w-[48px] sm:h-[48px] w-[32px] h-[32px] mx-2'
 					/>
 					<img
 						src={gimpLogo}
 						alt='logoGIMP'
-						className='sm:w-[48px] sm:h-[48px] w-[32px] h-[32px] sm:mx-0 mx-2'
+						className='sm:w-[48px] sm:h-[48px] w-[32px] h-[32px] mx-2'
 					/>
 				</div>
 			</div>
