@@ -36,7 +36,7 @@ function TimelineElement({
 					"border-red-400": color === "red",
 					"border-yellow-200": color === "yellow",
 					"border-cyan-300": color === "cyan",
-					"border-gray-400": !["red", "blue", "green"].includes(color), // Couleur par défaut
+					"border-gray-400": !["red", "cyan", "green"].includes(color), // Couleur par défaut
 				}
 			)}
 		>

@@ -137,7 +137,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
-							color='blue'
+							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - En cours'
 							desc="Après avoir obtenu mon BUT, je souhaitais continuer mes études dans une école d'ingénieus en alternance. Mon choix s'est porté sur l'IMT Mines d'Alès, car le programme proposé par l'école, notamment dans la spécialité développement logiciel, me plaisait. De plus, l'alternance que j'ai trouvée me convient très bien car elle me permettra d'améliorer mes compétences dans le développement web, que j'affectionne, mais aussi de progresser dans des domaines que je maitrise moins."
@@ -145,7 +145,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
-							color='blue'
+							color='cyan'
 							title="IMT Mines d'Alès"
 							date='Sept 2024 - Present'
 							type='school'
@@ -158,7 +158,7 @@ function Timeline({ locale }: TimelineProps) {
 					<Line></Line>
 					{locale === "fr" ? (
 						<TimelineElement
-							color='blue'
+							color='cyan'
 							title='Alternance - Un Toit Pour Tous'
 							date='Sept 2024 - En cours'
 							desc="Pour accompagner mes trois années à l'IMT Mines d'Alès, j'ai décidé de faire mon alternance chez Un Toit Pour Tous, une entreprise sociale pour l'habitat gérant plus de 10000 logements. Ma mission à Un Toit Pour Tous est de développer un extranet qui permettra aux locataires d'effectuer différentes démarches administratives en ligne. Ce projet est fait en utilisant Windev et Webdev ainsi qu'une base de données HFSQL. Il permettra aussi aux collaborateurs de l'entreprise de gérer les dossiers des locataires. Plus tard, d'autres projets me seront assignés, notamment sur le développement mobile ou d'autres projets que je gérerai de A à Z en tant que chef de projet."
@@ -167,7 +167,7 @@ function Timeline({ locale }: TimelineProps) {
 						></TimelineElement>
 					) : (
 						<TimelineElement
-							color='blue'
+							color='cyan'
 							title='Work-study - Un Toit Pour Tous'
 							date='Sept 2024 - Present'
 							type='work'
